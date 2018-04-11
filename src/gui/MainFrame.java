@@ -25,6 +25,7 @@ public class MainFrame extends javax.swing.JFrame {
         }
         catch(Exception e){
             System.out.println("Problem opening connection");
+            System.out.println("Adding one line to working tree to test diff\n");
         }
         CarrierFrame c = new CarrierFrame(myConn);   
         PanelCarrier.add(c.getContentPane());
